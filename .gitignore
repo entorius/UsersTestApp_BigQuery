@@ -338,3 +338,7 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+#google big query
+
+/UsersTestApp_BigQuery/Test Users Project-e7ad8ca3249a.json
