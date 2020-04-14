@@ -16,7 +16,7 @@ namespace UsersTestApp_BigQuery
         static void Main()
         {
             string workingDirectory = Environment.CurrentDirectory;
-            string firebasefileDirectory = Directory.GetParent(workingDirectory).Parent.FullName + @"\Test Users Project-e7ad8ca3249a.json";
+            string firebasefileDirectory = Directory.GetParent(workingDirectory).Parent.FullName + @"\test-users-progect-51ece2c4b364.json";
 
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", firebasefileDirectory);
             
